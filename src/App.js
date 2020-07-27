@@ -39,7 +39,10 @@ function App() {
         ignoreFirstVideo
         category={dadosIniciais.categorias[5]}
       />
+<<<<<<< HEAD
       <Footer/>
+=======
+>>>>>>> c1bcc664db66464c2a3e035efb12bea76bb065a4
     </div>
   );
 }
