@@ -13,7 +13,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área"}
+        videoDescription={"Inspirada na série Black Mirror, essa animação conta a história de um avatar que acorda no seu mundo mundo virtual com um grave defeito na sua programação: ele tem consciência"}
       />
       <Carousel
         ignoreFirstVideo
