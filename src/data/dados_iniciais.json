@@ -110,6 +110,9 @@
     {
       "titulo": "Cultura Digital",
       "cor": "orange",
+      "link_extra": {
+        "text": "Trabalhos realizados durante a disciplina de Criação na Cultura Digital"
+      },
       "videos": [
         {
           "titulo": "Singularidade",
@@ -132,9 +135,9 @@
     {
       "titulo": "TecDigiMirror 2018",
       "cor": "red",
-      "link_extra": {
+  "link_extra": {
         "text": "Trabalhos realizados durante a disciplina de Criação na Cultura Digital"
-      },
+      },    
       "videos": [
         {
           "titulo": "Watson, me faça um milkshake",
@@ -153,6 +156,9 @@
     {
       "titulo": "TCC",
       "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Trabalhos realizados durante a disciplina de Trabalho de Conclusão de Curso"
+      },
       "videos": [
         {
           "titulo": "O Corpo Memórico (2018)",
