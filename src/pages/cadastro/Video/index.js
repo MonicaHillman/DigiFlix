@@ -7,7 +7,7 @@ function CadastroVideo() {
       <PageDefault>
         <h1>Cadastro de Vídeo</h1>
 
-        <Link to=".git/categoria">
+        <Link to="./categoria">
           Cadastrar Categoria
         </Link>
       </PageDefault>
