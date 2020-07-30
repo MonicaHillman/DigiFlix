@@ -48,7 +48,7 @@ export const VideoCardList = styled.ul`
 `;
 
 export const VideoCardGroupContainer = styled.section`
-  color: var(--red);
+  color: white;
   min-height: 197px;
   margin-left: 5%;
   margin-bottom: 16px;
