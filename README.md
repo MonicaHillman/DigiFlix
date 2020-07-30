@@ -1,8 +1,8 @@
 # Digiflix
 
-Digiflix é um site baseado na interface da Netflix com o intuito de reunir os trabalhos do curso Bacharelado em Tecnologias Digitais da Universidade de Caxias do Sul.
+Digiflix is a website based on the Netflix interface in order to gather the productions of the Bachelor of Digital Technologies course at the University of Caxias do Sul.
 
-## Ferramentas
+## Tools
 
 [Create React App](https://github.com/facebook/create-react-app)
 
@@ -12,12 +12,15 @@ HTML
 
 CSS
 
-## Como rodar o projeto
+## How to run the project
 
 ```python
 npm install
 npm start
 ```
 
-## Sobre o projeto
-Projeto em andamento sendo construído durante a [Imersão React Alura](https://www.alura.com.br/imersao-react/).
+## About
+In progress.
+![Image of Digiflix](https://github.com/MonicaHillman/DigiFlix/blob/master/src/assets/img/Screenshot_1.png)
+
+[Imersão React Alura](https://www.alura.com.br/imersao-react/).
