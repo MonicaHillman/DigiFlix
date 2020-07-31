@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Animação 3D",
+            "descricao": "Trabalhos realizados durante a disciplina de Animação 3D",
+            "cor": "#6BD1FF"
+        },
+        {
+            "id": 2,
+            "nome": "Game Design",
+            "descricao": "Trabalhos realizados durante a disciplina de Game Design",
+            "cor": "#00C86F"
+        }
+    ]
+}
