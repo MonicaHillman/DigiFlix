@@ -1,16 +1,240 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Animação 3D",
-            "descricao": "Trabalhos realizados durante a disciplina de Animação 3D",
-            "cor": "#6BD1FF"
-        },
-        {
-            "id": 2,
-            "nome": "Game Design",
-            "descricao": "Trabalhos realizados durante a disciplina de Game Design",
-            "cor": "#00C86F"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Animação 3D",
+      "descricao": "Trabalhos realizados durante a disciplina de Animação 3D",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 2,
+      "titulo": "Game Design",
+      "descricao": "Trabalhos realizados durante a disciplina de Game Design",
+      "cor": "#00C86F"
+    },
+    {
+      "id": 3,
+      "titulo": "Projeto Temático: Audiovisual",
+      "descricao": "Trabalhos realizados durante a disciplina de Projeto Temático: Audiovisual",
+      "cor": "#9cd33b"
+    },
+    {
+      "id": 4,
+      "titulo": "Cultura Digital",
+      "descricao": "Trabalhos realizados durante a disciplina de Criação na Cultura Digital",
+      "cor": "orange"
+    },
+    {
+      "id": 5,
+      "titulo": "TecDigiMirror 2018",
+      "descricao": "Trabalhos realizados durante a disciplina de Criação na Cultura Digital",
+      "cor": "red"
+    },
+    {
+      "id": 6,
+      "titulo": "TCC",
+      "descricao": "Trabalhos realizados durante a disciplina de Trabalho de Conclusão de Curso",
+      "cor": "#6b5be2"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Mimesis (2018)",
+      "url": "https://www.youtube.com/watch?v=JlkSu-TOKWI"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "As aventuras de Sabrino (2018)",
+      "url": "https://www.youtube.com/watch?v=uaPCcAt8oZU"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "PopCorn Club (2018)",
+      "url": "https://www.youtube.com/watch?v=q3M-TdUCFYQ"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "AnimaLife (2018)",
+      "url": "https://www.youtube.com/watch?v=62klzOP03L4"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Um em um bilhão (2018)",
+      "url": "https://www.youtube.com/watch?v=3wzHVswvqfM"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Watch Your Door (2019)",
+      "url": "https://www.youtube.com/watch?v=lJe-Xo5KorE"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "The Boat (2019)",
+      "url": "https://www.youtube.com/watch?v=Btp147O9kiA"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Apontar dos Lápis (2019)",
+      "url": "https://www.youtube.com/watch?v=jAq1pbm2mgk"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Nightmachine (2019)",
+      "url": "https://www.youtube.com/watch?v=vFYk4JBmbec"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Magic Basket (2019)",
+      "url": "https://www.youtube.com/watch?v=-RU19nKuFxg"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Dragon B. Dash (2019)",
+      "url": "https://www.youtube.com/watch?v=zuFtFwdgyas"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "MiniChef (2019)",
+      "url": "https://www.youtube.com/watch?v=xpFvr02Q_yU"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Space Hover (2019)",
+      "url": "https://www.youtube.com/watch?v=yct4VOCU7vo"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "The Conspiracy (2019)",
+      "url": "https://www.youtube.com/watch?v=VE_L13gVsXc"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Crimes de Ódio (2019)",
+      "url": "https://www.youtube.com/watch?v=zj58pSeA9nk"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Preconceito e Discriminação (2019)",
+      "url": "https://www.youtube.com/watch?v=Jom0A9MW9K8"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Pedofilia I (2019)",
+      "url": "https://www.youtube.com/watch?v=bXDBXSUTD1U"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Pedofilia II (2019)",
+      "url": "https://www.youtube.com/watch?v=oI8VEYC8xBo"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Calúnias, Insulto e Difamação (2019)",
+      "url": "https://www.youtube.com/watch?v=QRuMGjfOgDE"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Apologia (2019)",
+      "url": "https://www.youtube.com/watch?v=gg68GoTo09Q"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Singularidade",
+      "url": "https://www.youtube.com/watch?v=NPROx4e-A4k"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Industria 4.0",
+      "url": "https://www.youtube.com/watch?v=C5LGfuumf5k"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Bioinformática",
+      "url": "https://www.youtube.com/watch?v=w-lv6YUCAjk"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Tecnognose",
+      "url": "https://www.youtube.com/watch?v=OQkXcuucVtc"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Watson, me faça um milkshake",
+      "url": "https://www.youtube.com/watch?v=oMREkptjgRM"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Nós, os trans-humanos",
+      "url": "https://www.youtube.com/watch?v=F2W9Saq2GTs"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Todo Dia Um Black Mirror",
+      "url": "https://www.youtube.com/watch?v=_l4VSn4pb7I"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "O Corpo Memórico (2018)",
+      "url": "https://www.youtube.com/watch?v=U_PrmBKgPXE"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "A Pena da Coruja (2018)",
+      "url": "https://www.youtube.com/watch?v=2KVBFHP25WY"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Hologramas: Aplicações (2018)",
+      "url": "https://www.youtube.com/watch?v=fd2rKG0b1iM"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Ciber-Orquestra (2016)",
+      "url": "https://www.youtube.com/watch?v=kotlhrOIUHI"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "Projeção Mapeada Campus 8 (2016)",
+      "url": "https://www.youtube.com/watch?v=P64NR1d45ZA"
+    },
+    {
+      "titulo": "Sleep Time (2016)",
+      "url": "https://www.youtube.com/watch?v=M7lFi8U8MaE",
+      "categoriaId": 1,
+      "id": 33
+    }
+  ]
 }
