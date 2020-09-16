@@ -69,16 +69,17 @@ function CadastroVideo() {
           suggestions={categoryTitles}
         />
 
-        <Button type="submit">
-          Cadastrar
+        <Button>
+          Cadastrar Vídeo
+        </Button>
+
+        <Button as={Link} className="ButtonLink" to="/cadastro/categoria">
+          Cadastrar Categoria
         </Button>
       </form>
       <br />
       <br />
 
-      <Link to="/cadastro/categoria">
-        Cadastrar Categoria
-      </Link>
     </PagerDefaut>
   );
 }

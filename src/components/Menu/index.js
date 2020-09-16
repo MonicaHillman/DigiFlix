@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Logo from '../../assets/img/Logo.png';
 import './Menu.css';
 import Button from '../Button';
-// import ButtonLink from './components/ButtonLink';
+
 
 function Menu() {
     return (
@@ -12,8 +12,8 @@ function Menu() {
             <img className="Logo" src={Logo} alt="DigiFlix logo"/>
             </Link>
 
-            <Button as={Link} className="ButtonLink" to="/cadastro/video">
-                Novo Vídeo
+            <Button as={Link} className="ButtonLink" to="/cadastro/Login">
+                Entrar
             </Button>
         </nav>
     );

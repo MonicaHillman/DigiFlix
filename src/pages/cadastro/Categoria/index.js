@@ -73,7 +73,11 @@ function CadastroCategoria() {
         />
 
         <Button>
-          Cadastrar
+          Cadastrar Categoria
+        </Button>
+
+        <Button as={Link} className="ButtonLink" to="/cadastro/video">
+          Cadastrar Vídeo
         </Button>
       </form>
 
@@ -91,9 +95,6 @@ function CadastroCategoria() {
         ))}
       </ul>
 
-      <Link to="/">
-        Ir para home
-      </Link>
     </PageDefault>
   );
 }

@@ -12,6 +12,7 @@ function Home() {
         setDadosIniciais(categoriasComVideos);
       })
       .catch((err) => {
+        // eslint-disable-next-line no-console
         console.log(err.message);
       });
   }, []);
