@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
-const FormWrapper = styled.div`
+const FormFieldWrapper = styled.div`
   position: relative;
   textarea {
     min-height: 150px;
@@ -11,20 +11,16 @@ const FormWrapper = styled.div`
   input[type="color"] {
     padding-left: 56px;
   }
-  display: flex;
-    justify-content: center;
-
 `;
 
-const Label = styled.label`
-`;
+const Label = styled.label``;
 
 Label.Text = styled.span`
  color: #E5E5E5;
   height: 57px;
   position: absolute; 
   top: 0;
-  margin-left: 10px;
+  left: 16px;
   
   display: flex;
   align-items: center;
@@ -33,8 +29,6 @@ Label.Text = styled.span`
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  
-  
 
   transition: .1s ease-in-out;
   `;
@@ -43,7 +37,7 @@ const Input = styled.input`
   background: #53585D;
   color: #F5F5F5;
   display: block;
-  width: 100%;
+  width: 250px;
   height: 57px;
   font-size: 18px;
   
@@ -53,12 +47,11 @@ const Input = styled.input`
   border-bottom: 4px solid #53585D;
   
   padding: 16px 16px;
-  margin-bottom: 20px;
+  margin-bottom: 45px;
   
   resize: none;
   border-radius: 4px;
   transition: border-color .3s;
-  
 
   &:focus {
     border-bottom-color: var(--primary);
@@ -73,9 +66,12 @@ const Input = styled.input`
     transform: scale(.6) translateY(-10px);
     }
   `}
+  @media (min-width: 700px) {
+    width: 500px;
+  }
 `;
 
-function Form({
+function FormField({
   label, type, name, value, onChange, suggestions,
 }) {
   const fieldId = `id_${name}`;
@@ -85,7 +81,7 @@ function Form({
   const hasSuggestions = Boolean(suggestions.length);
 
   return (
-    <FormWrapper>
+    <FormFieldWrapper>
       <Label
         htmlFor={fieldId}
       >
@@ -118,18 +114,18 @@ function Form({
           )
         }
       </Label>
-    </FormWrapper>
+    </FormFieldWrapper>
   );
 }
 
-Form.defaultProps = {
+FormField.defaultProps = {
   type: 'text',
   value: '',
   onChange: () => { },
   suggestions: [],
 };
 
-Form.propTypes = {
+FormField.propTypes = {
   label: PropTypes.string.isRequired,
   type: PropTypes.string,
   name: PropTypes.string.isRequired,
@@ -138,4 +134,4 @@ Form.propTypes = {
   suggestions: PropTypes.arrayOf(PropTypes.string),
 };
 
-export default Form;
+export default FormField;

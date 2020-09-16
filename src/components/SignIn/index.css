@@ -1,0 +1,12 @@
+.security img {
+    display: none;
+}
+
+@media (min-width: 700px) {
+    .security img {
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+    }
+}

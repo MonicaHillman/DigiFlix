@@ -16,7 +16,7 @@ export default class Login extends Component {
   render () {
     return (
     <PageDefault>
-      <Signin></Signin>
+      <Signin/>
     </PageDefault>
     )
 };
