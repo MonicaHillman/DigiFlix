@@ -14,6 +14,7 @@
 <li>Prop Types</li>
 <li>JSON Server</li>
 <li>Node.js</li>
+<li>Firebase</li>
 </ul>
 
 ## How to run the project
@@ -21,6 +22,7 @@
 ```python
 npm install
 npm run dev
+P.S: You need to connect your own project in firebase to the project.
 ```
 
 ## Screenshots
